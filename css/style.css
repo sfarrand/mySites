@@ -1,0 +1,352 @@
+/* Standard Template Styles */
+
+h1 {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #00a000;
+}
+
+h2 {
+    font-family: "Roboto", Arial, sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+h3 {
+    font-family: "Roboto", Arial, sans-serif;
+    color: rgb(0, 0, 255);
+}
+
+p {
+    font-family: "Roboto", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.menu_title {
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#left {
+    float: left;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 2px
+}
+
+#center {
+    text-align: center;
+}
+
+#right {
+    float: right;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.scf-modal {
+    padding-top: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-label-modal
+{
+    padding-top: 30px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.btn_label_note {
+    font-family: "Roboto", Arial, sans-serif;
+    color: red;
+    font-size: small;
+ /*   margin-top: 20px; */
+    display: inline;
+}
+
+
+.scf-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.scf-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 512px;
+    max-width: 100%;
+}
+
+.scf-center {
+    text-align: center!important
+}
+
+.scf-container:after, .scf-container:before, .scf-panel:after, .scf-panel:before, .scf-row:after, .scf-row:before, .scf-row-padding:after, .scf-row-padding:before, .scf-cell-row:before, .scf-cell-row:after, .scf-clear:after, .scf-clear:before, .scf-bar:before, .scf-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.scf-card-4, .scf-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.scf-container, .scf-panel {
+    padding: 0.01em 16px
+}
+
+.scf-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.scf-padding {
+    padding: 8px 16px!important
+}
+
+.scf-row-padding, .scf-row-padding>.scf-half, .scf-row-padding>.scf-third, .scf-row-padding>.scf-twothird, .scf-row-padding>.scf-threequarter, .scf-row-padding>.scf-quarter, .scf-row-padding>.scf-col {
+    padding: 0 8px
+}
+
+.scf-section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.scf-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.scf-border {
+    border: 1px solid #ccc!important
+}
+
+.scf-margin-bottom {
+    margin-bottom: 16px!important
+}
+
+.scf-black, .scf-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important
+}
+
+.scf-button:hover {
+    color: #000!important;
+    background-color: #ccc!important
+}
+
+.scf-btn, .scf-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.scf-xlarge {
+    font-size: 24px!important
+}
+
+.scf-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.scf-horizontal-align-right {
+    float: right;
+}
+
+header {
+    background: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+#logo img {
+    display: inline;
+    width: 60px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+#logo {
+    display: inline;
+    vertical-align: middle;
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.stack_top {
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+    position: relative;
+    top: -6px
+}
+
+.stack_bottom {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: small;
+    color: white;
+    position: relative;
+    left: -92px;
+    top: 16px;
+}
+
+/* Style the buttons */
+
+nav ul li .mi {
+    background-color: white;
+    color: blue;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 2px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline;
+    cursor: pointer;
+}
+
+#google_button {
+    background-image: url('../images/Google.png');
+    background-size: cover;
+    color:rgba(0, 0, 0, 0)   /* Translucent - Only provides for real estate to super impose the image */
+}
+
+
+/* Style the active class, and buttons on mouse-over */
+
+nav ul li .active, .mi:hover {
+    background-color: #0000ff;
+    color: white;
+}
+
+table {
+    background-color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    height: 6.5in;
+}
+
+table, th, td {
+    border: 2px solid #0000ff;
+    border-width: 2pt;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left;
+    width: 20%;
+    height: 18pt;
+}
+
+td {
+    position: relative;
+    vertical-align: middle;
+}
+
+.tbl_image {
+    height: 12px;
+    width: 12px;
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* trial and error value */
+}
+
+footer {
+    background: black;
+    margin: auto;
+    clear: both;
+    padding: 12px;
+    color: #FFFFFF;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: normal;
+    border-radius: 5px;
+}
+
+.edit_save {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: lightgray;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    vertical-align: text-bottom;
+    display: inline;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
