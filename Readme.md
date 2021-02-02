@@ -166,11 +166,11 @@ normally take. For example,
 [mailto:scott\@sfarrand.com](mailto:scott@sfarrand.com) populated in the URL of
 a cell will bring up your mail client and start an email to that address. This
 mechanism can be used in many convenient ways. For example, you can access your
-local file system (eg, file:///C:/users/myHome/ /documents/…) or open and
-application with a file loaded (eg. . ile:///C:/users/myHome/
+local file system (eg. file:///C:/users/myHome/ /documents/…) or open and
+application with a file loaded (eg. file:///C:/users/myHome/
 /documents/xls/finance.xls)
 
-## New Tab Plug-in
+## New Tab Extension
 
 mySites is quite useful to set as your browser start page – give it a try. Most
 new browsers no longer allow you to set a specified page for a new tab. The
