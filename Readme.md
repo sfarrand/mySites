@@ -10,7 +10,7 @@ columns) cells for a total of 390 individual links that can easily be accessed
 according to categories (page navigation buttons) and subcategories (column
 headings) that you define. Figure 1 below shows the home page layout of mySites.
 
-![](media/1a5c77738d65f1564d39db947a9484c7.jpg)
+![](media/170a98e5b6556ae5a4950bb5cd7cbbed.jpg)
 
 Figure 1 - mySites Home Screen
 
@@ -38,7 +38,7 @@ mySites.exe self-extracting zip file or unzipping mySites.zip.
 
 The file hierarchy in a folder of your choosing would be as shown in figure 2.
 
-![](media/16d44db10599bf40da9d519ec58346d8.png)
+![](media/0c89d79950cb947effa1173a4892e98b.jpg)
 
 Figure 2 – mySites file hierarchy
 
@@ -56,7 +56,7 @@ cell in the grid form a “hot spot” in the upper left corner of the cell.
 Clicking the hot spot will present a dialog for you to enter the fully qualified
 URL and your personalized label as shown in figure 3 below.
 
-![](media/cff525dbdce9df6e842a476d8403e4a2.png)
+![](media/09e60db43f1cde3c18d8311ba092c820.png)
 
 Figure 3 – Input/Edit Hyperlink to a site
 
@@ -76,7 +76,7 @@ of links to your sites!
 Notice the navigation buttons across the top of any page. The initial navigation
 bar looks as shown in figure 4.
 
-![](media/02474b8407914de8de21975c0f7744d4.png)
+![](media/c6d5c7fc920ce1ffdd234931c1ab10d1.png)
 
 Figure 4 – Initial navigation bar
 
@@ -85,7 +85,7 @@ follow a similar procedure as you did for input/editing URLs. Specifically,
 press the edit button in the lower left corner. Now press the navigation button
 itself and you will see the dialog in figure 5 appear on screen.
 
-![](media/c027b6a217bd1b74f3594affb79d4084.png)
+![](media/c13ab417984a859dd3996bd91f8da5e3.png)
 
 Figure 5 – Edit the navigation button
 
