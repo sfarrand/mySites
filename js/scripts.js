@@ -6,7 +6,7 @@
 //   2. Hover for 'Edit_Save' button
 //   3. Crosshair cursor for hot_spot
 
-var  verString = "Ver 0.12";  // Spin the version with each rev of the site
+var  verString = "Ver 0.15";  // Spin the version with each rev of the site
 var  edit_link = 0;           // Global for the link being edited.
 var  mi_label = 0;
 var  mi_editable = false;     // Global for menu items are editable.
