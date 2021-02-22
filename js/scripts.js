@@ -1,12 +1,10 @@
 
 // Add JavaScript here
 
-// TODO:
-//   1. Hover for "mySites" URL; hover for "sfarrand" donate page URL
-//   2. Hover for 'Edit_Save' button
-//   3. Crosshair cursor for hot_spot
+// Version Log:
+//   v0.16 - Converted clock from military time to am/pm.
 
-var  verString = "Ver 0.15";  // Spin the version with each rev of the site
+var  verString = "Ver 0.16";
 var  edit_link = 0;           // Global for the link being edited.
 var  mi_label = 0;
 var  mi_editable = false;     // Global for menu items are editable.
@@ -188,6 +186,19 @@ function getDateTime() {
      var hour = now.getHours();
      var minute = now.getMinutes();
      var second = now.getSeconds();
+
+     var hr12 = "AM"
+
+     if (hour > 12) {
+          hour = hour - 12;
+          hr12 = "pm"
+     }    else {
+          hr12 = "am"
+     }
+
+     if (hour == 0)
+          hour += 12;
+     
      if (month.toString().length == 1) {
 
           month = '0' + month;
@@ -208,7 +219,8 @@ function getDateTime() {
           second = '0' + second;
      }
 
-     var dateTime = month + '/' + day + '/' + year + "&nbsp;&nbsp;&nbsp;&nbsp;" + hour + ':' + minute + ':' + second;
+
+     var dateTime = month + '/' + day + '/' + year + "&nbsp;&nbsp;&nbsp;&nbsp;" + hour + ':' + minute + ':' + second+"&nbsp;"+hr12;
      return dateTime;
 }
 
