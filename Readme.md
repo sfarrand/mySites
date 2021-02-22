@@ -1,4 +1,4 @@
-**mySites** ver 0.15 sfarrand.com 02/02/2021 12:15am
+**mySites** ver 0.16 sfarrand.com 02/22/2021 12:00pm
 
 # What is mySites?
 
@@ -122,6 +122,12 @@ on each page. For example, change button \<Page1\> on the home page to
 change the \<Page1\> button label on each of those pages to \<Streaming Sites\>.
 
 # Revision Log
+
+## Ver 0.16
+
+Precisely same as ver 0.15 except:
+
+-   Updated javascript clock to be in am/pm format versus military time.
 
 ## Ver 0.15
 
