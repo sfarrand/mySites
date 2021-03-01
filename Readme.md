@@ -1,4 +1,4 @@
-**mySites** ver 0.16 sfarrand.com 02/22/2021 12:00pm
+**mySites** ver 0.20 sfarrand.com 03/01/2021 12:00pm
 
 # What is mySites?
 
@@ -122,6 +122,13 @@ on each page. For example, change button \<Page1\> on the home page to
 change the \<Page1\> button label on each of those pages to \<Streaming Sites\>.
 
 # Revision Log
+
+## Ver 0.20
+
+-   Position footer as fixed at bottom on browser and inspire vertical scroll
+    bar.
+
+-   Ridge border around header and footer.
 
 ## Ver 0.16
 

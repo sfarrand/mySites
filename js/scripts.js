@@ -4,7 +4,7 @@
 // Version Log:
 //   v0.16 - Converted clock from military time to am/pm.
 
-var  verString = "Ver 0.16";
+var  verString = "Ver 0.20";
 var  edit_link = 0;           // Global for the link being edited.
 var  mi_label = 0;
 var  mi_editable = false;     // Global for menu items are editable.

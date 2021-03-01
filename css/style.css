@@ -24,6 +24,10 @@ p {
     font-family: "Roboto", Arial, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 a:link {
     color: blue;
     background-color: transparent;
@@ -207,8 +211,14 @@ a:active {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    left: 1;
+    right: 1;
     background: black;
     padding: 10px;
+    border-style: ridge;
+    border-width: 1.5pt;
     border-radius: 8px;
 }
 
@@ -294,6 +304,7 @@ table {
     background-color: white;
     font-family: "Roboto", Arial, sans-serif;
     height: 6.5in;
+    margin-bottom: 4px;
 }
 
 table, th, td {
@@ -328,13 +339,22 @@ td {
 }
 
 footer {
+    position: fixed;
+
+    bottom: 0;
+    left: 1;
+    right: 1;
     background: black;
-    margin: auto;
-    clear: both;
-    padding: 12px;
+    margin-top: 4px;
+ /*   clear: both; */
+    padding-bottom: 8px;
+    padding-top: 12px;
+    padding-right: 10px;
     color: #FFFFFF;
     font-family: "Roboto", Arial, sans-serif;
     font-size: normal;
+    border-style: ridge;
+    border-width: 1.5pt;
     border-radius: 5px;
 }
 
@@ -348,5 +368,5 @@ footer {
     vertical-align: text-bottom;
     display: inline;
     margin-bottom: 5px;
-    margin-left: 3px;
+    margin-left: 12px;
 }
