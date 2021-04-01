@@ -16,10 +16,9 @@ Figure 1 - mySites Home Screen
 
 # Where to get mySites
 
-The mySites “app” can be downloaded from
-<https://www.sfarrand.com/downloads/mySites>. Choose either the self-extracting
-mySites.exe or the zip file mySites.zip. mySites is available free for your
-convenience although we always [welcome a
+The mySites “app” can be downloaded from <https://www.sfarrand.com/mysites>.
+Choose either the self-extracting mySites.exe or the zip file mySites.zip.
+mySites is available free for your convenience although we always [welcome a
 donation](https://www.sfarrand.com/payments) so we can continue to advance and
 support our downloadable solution for you.
 
